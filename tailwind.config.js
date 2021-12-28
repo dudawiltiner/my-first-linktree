@@ -7,11 +7,13 @@ module.exports = {
     extend: {
       backgroundColor: {
         'green-color': '#46C09D',
-        'yellow-color': '#FFC86C'
+        'yellow-color': '#FFC86C',
+        'black-color': '#101114'
       },
       textColor: {
         'green-color': '#46C09D',
-        'yellow-color': '#FFC86C'
+        'yellow-color': '#FFC86C',
+        'black-color': '#101114'
       }
     },
   },

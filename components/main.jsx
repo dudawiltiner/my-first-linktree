@@ -12,14 +12,14 @@ export default function Main() {
   }
 
   return (
-    <div className="bg-gray-900 h-screen">
-      <img src="./emc.svg" alt="Uma fórmula criado por Einstein" />
+    <div className="bg-black h-screen flex flex-col">
+      <img className="m-6" src="./emc.svg" alt="Uma fórmula criado por Einstein" />
       
       {
         !show &&
           <button 
             onClick={() => setShow(true)}
-            className="p-2 rounded-md bg-yellow-color"
+            className="text-lg font-medium p-2 rounded-md bg-yellow-color"
           >
             Voltar
           </button>
@@ -30,8 +30,8 @@ export default function Main() {
         
           links.map((item, idx) =>
             <button 
-              key={idx} // if (idx + 1) % 2 === 0 ? green : yellow
-              className={`p-2 rounded-md ${ (idx + 1) % 2 === 0 ? 'bg-green-color' : 'bg-yellow-color' }`}
+              key={idx}
+              className={`text-lg font-medium p-2 rounded-md ${ (idx + 1) % 2 === 0 ? 'bg-green-color' : 'bg-yellow-color' }`}
               onClick={() => handleClick(item.content)}
             >
               {item.name}
@@ -45,7 +45,7 @@ export default function Main() {
               key={idx}
               target="_blank"
               href={item.endereco}
-              className={`p-2 rounded-md ${ (idx + 1) % 2 === 0 ? 'bg-green-color' : 'bg-yellow-color' }`}
+              className={`text-lg font-medium p-2 rounded-md ${ (idx + 1) % 2 === 0 ? 'bg-green-color' : 'bg-yellow-color' }`}
             >
               {item.name}
             </a>

@@ -1,34 +1,68 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Boas vindas ao My First LinkTree
 
-First, run the development server:
+## Introdução
 
-```bash
-npm run dev
-# or
-yarn dev
+Ou devo dizer... Einstein LinkTree?
+
+
+
+Bom, vejo muitas pessoas gostando de reunir links num mesmo lugar como o que a plataforma LinkTree oferece de solução. Então, pensei... pq não oferecer uma solução dev para isso, sem precisar contratar nehum seriço? Foi aí que criei este repositório reservado para servir de modelo de aplicação e código para o desenvolviment do seu prório LinkTree presonalizado! Você pode acessar o tutorial completo e mais detalhado de como o código foi feito no canal DudaTech [Com criar o seu próprio LinkTree? Next.js + Tailwind.css](https://www.youtube.com).
+
+### As ferramentas principais utilizadas foram:
+
+
+[Next](https://nextjs.org/)<br>
+[Vercel](https://vercel.com/)<br>
+[Tailwind.css](https://tailwindcss.com/)<br>
+
+---
+
+## Uso do projeto localmente
+
+### Clone do repositório
+
+Após cada um dos passos a seguir, haverá um exemplo do comando a ser digitado para fazer o que está sendo pedido, caso tenha dificuldades e o exemplo não seja suficiente, não hesite em me contatar em _eduardawiltiner@gmail.com_.
+
+1. Abra o terminal e crie um diretório no local de sua preferência com o comando **mkdir**:
+```javascript
+  mkdir first-linktree
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Entre no diretório que acabou de criar e depois clone o projeto:
+```javascript
+  cd first-linktree
+  git clone https://github.com/dudawiltiner/my-first-linktree.git
+```
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### Instalação das dependências
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+3. Entre no diretório criado após a clonagem do repositório.
+```javascript
+  cd first-linktree
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+4. Instale todas as dependências, usando o CLI **npm**.
+```javascript
+  npm install
+```
+### Debug da aplicação
 
-## Learn More
+5. Abra no ambiente de desenvolvimento de sua preferência. No caso de uso do VSC, digite o comando **code .** na raiz do diretório clonado.
+```javascript
+  code .
+```
 
-To learn more about Next.js, take a look at the following resources:
+4. Rode a aplicação com o node.js, usando o CLI **npm**.
+```javascript
+  npm run dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Link para o deploy da Plataforma:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+https://einstein-linktree.vercel.app/
 
-## Deploy on Vercel
+## Link para o tutrial n Youtube:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+https://einstein-linktree.vercel.app/
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

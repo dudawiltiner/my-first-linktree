@@ -10,7 +10,6 @@ export default function Footer() {
         <a target="_blank" href=""><img src="./youtube.svg" alt="YouTube"/></a>
         <a target="_blank" href=""><img src="./insta.svg" alt="Insta"/></a>
       </div>
-      
     </div>
   )
 }

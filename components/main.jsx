@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import links from '../data/links'
+import Footer from './footer';
 
 export default function Main() {
   const [show, setShow] = useState(true);
@@ -12,6 +13,7 @@ export default function Main() {
 
   return (
     <div>
+      <img src="./emc.svg" alt="Uma fórmula criado por Einstein" />
       {
         !show &&
           <button 
@@ -47,6 +49,8 @@ export default function Main() {
         )
       
       }
+
+    <Footer />
     </div>
   )
 }

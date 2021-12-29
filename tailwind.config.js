@@ -4,6 +4,7 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    // Adaptações para as cores do design
     extend: {
       backgroundColor: {
         'green-color': '#46C09D',

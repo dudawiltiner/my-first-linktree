@@ -5,7 +5,9 @@
 
 Ou devo dizer... Einstein LinkTree?
 
-
+<div align="center">
+  <img src="./public/app.gif" margin="10px" width="700" alt="gif"/>
+</div>
 
 Bom, vejo muitas pessoas gostando de reunir links num mesmo lugar para ajudar na organização ou no próprio trabalho, como o que a plataforma LinkTree oferece de solução. Então, pensei... pq não oferecer uma solução dev para isso, sem precisar contratar um serviço? Foi aí que criei este repositório reservado para servir de modelo de aplicação e código para o desenvolvimento do seu prório LinkTree presonalizado! Você pode acessar o tutorial completo e mais detalhado de como o código foi feito no canal DudaTech -> [Com criar o seu próprio LinkTree? Next.js + Tailwind.css](https://www.youtube.com).
 

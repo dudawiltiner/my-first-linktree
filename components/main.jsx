@@ -2,10 +2,21 @@ import React, { useState } from 'react'
 import links from '../data/links'
 import Footer from './footer';
 
+/**
+ * Main
+ * @returns um componente principal que vai englobar * o componente footer e os demais links que vão 
+ * ser utilizados no linktree
+ */
 export default function Main() {
   const [show, setShow] = useState(true);
   const [content, setContent] = useState([]);
 
+  /**
+   * HandleClick
+   * @param {*} contentLink  esse um parâmetro que
+   * vai ser usado para obter os demais botões 
+   * correspondentes a cada click nos botões do menu
+   */
   function handleClick(contentLink){
     setContent(contentLink);
     setShow(false);

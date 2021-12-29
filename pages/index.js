@@ -1,6 +1,11 @@
 import Head from "next/head";
 import Main from "../components/main";
 
+/**
+ * Home
+ * @returns a tela principal da aplicação feita
+ * em Next.js, reuni todos os componentes
+ */
 export default function Home() {
   return (
     <div className="min-h-screen bg-black-color flex flex-col items-center">

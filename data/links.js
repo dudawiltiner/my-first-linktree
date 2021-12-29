@@ -1,3 +1,4 @@
+// Um array com objetos para organizar links por tópicos e conteúdos
 const links = [
   {
     name: "História",
